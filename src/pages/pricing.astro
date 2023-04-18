@@ -6,22 +6,23 @@ import Pricing from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
+    name: "Professional",
     price: "Free",
-    popular: false,
+    popular: true,
     features: [
       "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
+      "Unlimited users",
+      "Unlimited Affiliates",
+      "All Integrations",
       "Community Support",
+      "3% Transaction Fee",
     ],
     button: {
       text: "Get Started",
-      link: "/",
+      link: "/contact",
     },
   },
+  /* 
   {
     name: "Startup",
     price: {
@@ -60,7 +61,7 @@ const pricing = [
       text: "Contact us",
       link: "/contact",
     },
-  },
+  }, */
 ];
 ---
 
@@ -68,13 +69,14 @@ const pricing = [
   <Container>
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
-      <Fragment slot="desc"
-        >Simple & Predictable pricing. No Surprises.</Fragment
-      >
+      <Fragment slot="desc"></Fragment>
+      Simple & Predictable pricing. No Surprises.
     </Sectionhead>
-
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      {pricing.map((item) => <Pricing plan={item} />)}
-    </div>
   </Container>
+
+  <!-- <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12"> -->
+  <!-- center-aligning single pricing plan -->
+  <div class="flex justify-center mt-12">
+    {pricing.map((item) => <Pricing plan={item} />)}
+  </div>
 </Layout>
