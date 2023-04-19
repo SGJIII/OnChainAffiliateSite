@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2023-04-18 16:43"
 category: "Tutorials"
-author: "Samuel Johnson"
+author: "J.C. Parker"
 tags: [affiliate management, blockchain]
 ---
 

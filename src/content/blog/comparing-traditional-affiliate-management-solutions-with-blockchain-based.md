@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2023-04-18 17:01"
 category: "Comparison"
-author: "Samuel Johnson"
+author: "J.C. Parker"
 tags: [Blockchain, Affiliate Management]
 ---
 
