@@ -4,6 +4,7 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource/inter/variable.css";
 import GTMHead from "@components/GTMHead.astro";
+import GoogleAnalytics4 from "@components/GoogleAnalytics4.astro";
 
 export interface Props {
   title: string;
@@ -29,6 +30,7 @@ const makeTitle = title
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <GoogleAnalytics4 />
     <GTMHead />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
