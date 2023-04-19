@@ -1,7 +1,10 @@
 ---
+import GTMBody from "./GTMBody.astro";
+
 const { class: className } = Astro.props;
 ---
 
 <div class:list={["max-w-screen-xl mx-auto px-5", className]}>
+  <GTMBody />
   <slot />
 </div>
