@@ -1,3 +1,5 @@
+// astro.config.mjs
+
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
@@ -6,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: "https://www.referblock.xyz/",
   integrations: [
     tailwind(),
     partytown({
@@ -19,6 +21,8 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     mdx(),
-    sitemap(),
+    sitemap({
+      output: "/sitemap.xml",
+    }),
   ],
 });
