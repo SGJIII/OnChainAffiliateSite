@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2023-04-16 16:48"
 category: "Guides"
-author: "J.C. Parker"
+author: "Sam Johnson"
 tags: [Affiliate, Management Software]
 ---
 
