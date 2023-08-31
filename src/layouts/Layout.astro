@@ -12,19 +12,19 @@ export interface Props {
 
 const canonicalURL = new URL(
   Astro.url.pathname,
-  "https://www.referblock.xyz/"
+  "https://www.getreferee.xyz/"
 ).toString();
 
 const resolvedImageWithDomain = new URL(
   "/opengraph.jpg",
-  "https://www.referblock.xyz"
+  "https://www.getreferee.xyz/"
 ).toString();
 
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "ReferBlock"
-  : "ReferBlock - Infrastructure for Influencer and Affiliate Marketing";
+  ? title + " | " + "Referee"
+  : "Referee - Infrastructure for Influencer and Affiliate Marketing";
 ---
 
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="ReferBlock is an Affilaite Marketing Management platform that adds transparency and automation to affiliate management using Blockchain technology."
+      description="Referee makes influencer marketing easy. Transparent transactions and automation create trust so business alignment can happen instantly."
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",
@@ -51,11 +51,11 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `ReferBlock - Infrastructure for Influencer and Affiliate Marketing`,
+          title: `Referee - Infrastructure for Influencer and Affiliate Marketing`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "ReferBlock Homepage Screenshot",
+          alt: "Referee Homepage Screenshot",
         },
       }}
     />
@@ -63,7 +63,10 @@ const makeTitle = title
       href="https://fonts.googleapis.com/css2?family=Baloo&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <Navbar />
