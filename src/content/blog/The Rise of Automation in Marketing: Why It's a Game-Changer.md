@@ -11,11 +11,6 @@ publishDate: "2023-04-18 17:01"
 category: "Comparison"
 author: "Sam Johnson"
 tags: [Affiliate Management]
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@YourTwitterHandle">
-<meta name="twitter:title" content="The Rise of Automation in Marketing: Why It's a Game-Changer">
-<meta name="twitter:description" content="Marketing automation refers to the use of software and technology to automate repetitive marketing tasks, manage complexity, and optimize efforts across multiple channels. This can include tasks like email marketing, social media posting, and even complex campaign tracking and reporting.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&w=430&h=240">
 ---
 
 # The Rise of Automation in Marketing: Why It's a Game-Changer
