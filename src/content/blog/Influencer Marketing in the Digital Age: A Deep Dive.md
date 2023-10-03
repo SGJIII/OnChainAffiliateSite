@@ -7,7 +7,7 @@ image:
     src: "https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&w=430&h=240",
     alt: "Traditional Affiliate Management Platforms vs Blockchain-based solutions",
   }
-publishDate: "2023-04-18 17:01"
+publishDate: "2023-10-01 17:01"
 category: "Comparison"
 author: "Sam Johnson"
 tags: [Affiliate Management]
