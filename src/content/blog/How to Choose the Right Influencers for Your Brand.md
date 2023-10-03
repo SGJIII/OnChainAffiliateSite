@@ -4,7 +4,7 @@ title: "How to Choose the Right Influencers for Your Brand"
 snippet: "In today's digital marketing landscape, influencers play a pivotal role in shaping consumer decisions. But with a plethora of influencers out there, how do you select the right ones for your brand? Let's explore."
 image:
   {
-    src: "https://images.unsplash.com/photo-1603217039863-aa0c865404f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&w=430&h=240",
+    src: "https://images.unsplash.com/photo-1613053341085-db794820ce43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&w=430&h=240",
     alt: "The Different Types of Influencers: Micro, Macro, and Everything in Between",
   }
 publishDate: "2023-10-03 17:01"
